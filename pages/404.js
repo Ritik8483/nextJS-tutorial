@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 
 const Error = () => {
   const router=useRouter();
-  const handleBack=()=>{
+  const handleBack=()=>{        //have to make file name as 404 only
     router.push('/');           //navigates
   }
   useEffect(()=>{

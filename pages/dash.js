@@ -1,6 +1,7 @@
 import React from "react";
 
 const Dash = () => {
+  
   return (
     <>
       <style jsx>
@@ -10,7 +11,9 @@ const Dash = () => {
           }
         `}
       </style>
-      <div className="dashb">Dashboard</div>
+      <div className="dashb">Dashboard
+          
+      </div>
     </>
   );
 };
